@@ -1,25 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import { InputsContainer, SignUpFormContainer } from './styled'
-import useForm from '../../hooks/useForm'
 import { useHistory } from 'react-router-dom'
-import { signUp } from '../../services/user'
+import useForm from '../../hooks/useForm'
+import { signUp } from "../../services/user"
+import CircularProgress from '@material-ui/core/CircularProgress'
 
-
-export const SignUpForm = ({setRightButtonText}) => {
+const SignUpForm = ({ setRightButtonText }) => {
     const history = useHistory()
-    const [form, onChange, clear] = useForm({
-        name: "",
-        email: "",
-        password: ""
-    })
+    const [form, onChange, clear] = useForm({ name: '', email: '', password: '' })
+    const [isLoading, setIsLoading] = useState(false)
 
-    const onSubmitForm = (e) => {
-        e.preventDefault()
-        console.log(form)
-        signUp(form, clear, history, setRightButtonText)
+    const onSubmitForm = (event) => {
+        event.preventDefault()
+        signUp(form, clear, history, setRightButtonText, setIsLoading)
     }
+
     return (
         <form onSubmit={onSubmitForm}>
             <SignUpFormContainer>
@@ -64,12 +61,11 @@ export const SignUpForm = ({setRightButtonText}) => {
                     type={'submit'}
                     fullWidth
                 >
-                    Fazer Cadastro
+                    {isLoading ? <CircularProgress color={"inherit"} size={24} /> : <>Fazer Cadastro</>}
                 </Button>
             </SignUpFormContainer>
         </form>
     )
 }
-
 
 export default SignUpForm
