@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom'
 import { signUp } from '../../services/user'
 
 
-export const SignUpForm = () => {
+export const SignUpForm = ({setRightButtonText}) => {
     const history = useHistory()
     const [form, onChange, clear] = useForm({
         name: "",
@@ -18,7 +18,7 @@ export const SignUpForm = () => {
     const onSubmitForm = (e) => {
         e.preventDefault()
         console.log(form)
-        signUp(form, clear, history)
+        signUp(form, clear, history, setRightButtonText)
     }
     return (
         <form onSubmit={onSubmitForm}>
