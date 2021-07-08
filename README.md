@@ -9,7 +9,7 @@
 <hr />
 
 ### 🔗 Link do Surge: 
-https://young-dog.surge.sh/login
+https://obtainable-faucet.surge.sh/login
 <hr />
 
 
