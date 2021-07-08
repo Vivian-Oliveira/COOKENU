@@ -10,7 +10,6 @@
 
 ### 🔗 Link do Surge: 
 https://young-dog.surge.sh/login
-
 <hr />
 
 
@@ -42,8 +41,6 @@ Essa página só pode ser acessada por um usuário logado. Caso o usuário não 
 ### Documentação da API:
 
 (https://documenter.getpostman.com/view/9133542/TVKEXwyh#241cd863-8731-4477-99dd-c724150c4ffe) 
-
-
 <hr />
 
 
@@ -51,9 +48,11 @@ Essa página só pode ser acessada por um usuário logado. Caso o usuário não 
 
 
 - [x] Rotas
-- [x] Página de cadastro
-- [x] Página de feed
-- [x] Página de post
+- [x] Tela de login
+- [x] Tela de cadastro
+- [x] Tela de Lista de Receitas
+- [x] Tela de Detalhes da Receita
+- [x] Tela de Adicionar Receita
 - [x] Página de Erro
 - [x] Responsividade para iPhones 6/7/8 e iPad
 
@@ -81,7 +80,7 @@ $ npm install
 $ npm run start
 ##### Passo 5. Abra em seu navegador o seguinte endereço: [http://localhost:3000](http://localhost:3000)
 
-<hr />
+
 
 
 
