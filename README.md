@@ -88,9 +88,9 @@ $ npm run start
 ### 📷 Prints:
 
 
-<img src="![image](https://user-images.githubusercontent.com/67598487/124841884-343da900-df86-11eb-9b2a-d1c8fae174e5.png)"></img>
-<img src="![image](https://user-images.githubusercontent.com/67598487/124841942-5f27fd00-df86-11eb-80dc-0969dacf4bbe.png)"></img>
-<img src="![image](https://user-images.githubusercontent.com/67598487/124842013-854d9d00-df86-11eb-98f2-5df3c26ee182.png)"></img>
+<img src="(https://user-images.githubusercontent.com/67598487/124841884-343da900-df86-11eb-9b2a-d1c8fae174e5.png)"></img>
+<img src="(https://user-images.githubusercontent.com/67598487/124841942-5f27fd00-df86-11eb-80dc-0969dacf4bbe.png)"></img>
+<img src="(https://user-images.githubusercontent.com/67598487/124842013-854d9d00-df86-11eb-98f2-5df3c26ee182.png)"></img>
 <img src="![image](https://user-images.githubusercontent.com/67598487/124842055-9bf3f400-df86-11eb-8eab-d7270b3b8d67.png)"></img>
 <img src="![image](https://user-images.githubusercontent.com/67598487/124842081-ad3d0080-df86-11eb-908f-08a88f4b05eb.png)"></img>
 <img src="![image](https://user-images.githubusercontent.com/67598487/124842759-3a348980-df88-11eb-90b7-78c14d65abf7.png)"></img>
